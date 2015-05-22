@@ -12,7 +12,8 @@ github_username:  ClojureBridge
 # Build settings
 markdown: kramdown
 pygments: true
-baseurl: /curriculum
+#baseurl: /curriculum
+baseurl: /experimenting-curriculum-ghpages
 encoding: UTF-8
 exclude:
 - Gemfile
