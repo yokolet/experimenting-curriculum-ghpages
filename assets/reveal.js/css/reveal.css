@@ -308,7 +308,8 @@ body {
 }
 	.reveal blockquote p:first-child,
 	.reveal blockquote p:last-child {
-		display: inline-block;
+            font-size: 25px;
+	    display: inline-block;
 	}
 
 .reveal q {
