@@ -1,6 +1,6 @@
 ---
 layout: default
-title: 
+title: Introduction
 permalink: /intro.html
 ---
 
@@ -125,7 +125,7 @@ Here's an example of a few lines of Clojure:
 
 **R**ead, **E**val, **P**rint, **L**oop
 
-![Instarepl](assets/instarepl.png)
+![Instarepl](img/instarepl.png)
 
 </section>
 
