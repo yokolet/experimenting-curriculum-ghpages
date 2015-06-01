@@ -24,8 +24,8 @@ ClojureBridge
 
 This index.md is for http://clojurebridge.github.io/curriculum/
 and rendered by jekyll framework.
-Links below won't work if you see this comment. :smile:
-Please look at README.md instead. :green_heart: :blue_heart:
+Links below won't work if you are reading this comment :smile:
+Please look at <README.md> instead. :green_heart: :blue_heart:
 
 {% endcomment %}
 
