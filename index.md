@@ -20,12 +20,12 @@ ClojureBridge
 
 {% comment %}
 
-:exclamation: _Note_
+:exclamation: _Note_ :exclamation:
 
 This index.md is for http://clojurebridge.github.io/curriculum/
 and rendered by jekyll framework.
-Links below won't work if you see this comment.
-Please look at README.md instead.
+Links below won't work if you see this comment. :smile:
+Please look at README.md instead. :green_heart: :blue_heart:
 
 {% endcomment %}
 
