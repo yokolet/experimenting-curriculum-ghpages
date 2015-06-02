@@ -39,53 +39,53 @@ If you are not familiar with those tags and notations, read below.
 
 * front matter
 
-On top of each markdown files, you'll see five lines like this:
+    On top of each markdown files, you'll see five lines like this:
 
-```
----
-layout: default
-title: Introduction
-permalink: /outline/intro.html
----
-```
+    ```
+    ---
+    layout: default
+    title: Introduction
+    permalink: /outline/intro.html
+    ---
+    ```
 
-This is called
-[front matter](http://jekyllrb.com/docs/frontmatter/) and important
-information for Jekyll.
-Jekyll sees these lines and creates complete HTML.
+    This is called
+    [front matter](http://jekyllrb.com/docs/frontmatter/) and important
+    information for Jekyll.
+    Jekyll sees these lines and creates complete HTML.
 
 
 * `{::options parse_block_html="true" /}` notation
 
-This notation is for kramdown to notify this markdown file has html
-tags other than markdown syntax.
+    This notation is for kramdown to notify this markdown file has html
+    tags other than markdown syntax.
 
 
 * `<section></section>` tags
 
-You'll see a lot of `<section></section>` tags.
-This section tag creates each single slide.
-Make sure opening and closing tags match correctly.
+    You'll see a lot of `<section></section>` tags.
+    This section tag creates each single slide.
+    Make sure opening and closing tags match correctly.
 
 
 * `{: .slide-title .slide}` notations
 
-These are reveal.js styling notations.
-This curly braces are parsed by kramdown and added to html tags as css
-class names or attributes.
+    These are reveal.js styling notations.
+    This curly braces are parsed by kramdown and added to html tags as css
+    class names or attributes.
 
 
 * ng-model, ng-click, ng-show notations and buttons
 
-These AngularJS directives are used to show/hide long sentences.
-Since the markdown files are documents as well, the files have many
-explanations in long sentences to clarify what that means.
-However, such long sentences won't fit in a slide.
-Also, those are not appropriate as the slide.
+    These AngularJS directives are used to show/hide long sentences.
+    Since the markdown files are documents as well, the files have many
+    explanations in long sentences to clarify what that means.
+    However, such long sentences won't fit in a slide.
+    Also, those are not appropriate as the slide.
 
-Using angular, our slides got the feature to show/hide explanations
-Most of slides have "Intro" or "Details" buttons (those look links,
-but actually, buttons), which act as a toggle button.
+    Using angular, our slides got the feature to show/hide explanations
+    Most of slides have "Intro" or "Details" buttons (those look links,
+    but actually, buttons), which act as a toggle button.
 
 
 #### newlines matters
