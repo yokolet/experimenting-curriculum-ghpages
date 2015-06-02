@@ -88,14 +88,14 @@ If you are not familiar with those tags and notations, read below.
     but actually, buttons), which act as a toggle button.
 
 
-#### newlines matters
+* newlines matters
 
-Sometime, newlines must present, and in another cases, newline should not
-be there.
-In general, before curly braces notations, you should not put a
-newline, but you should put newlines before markdown notations.
-See markdown files closely if you are not clear about this.
-Also, test your changes.
+    Sometime, newlines must present, and in another cases, newline should not
+    be there.
+    In general, before curly braces notations, you should not put a
+    newline, but you should put newlines before markdown notations.
+    See markdown files closely if you are not clear about this.
+    Also, test your changes.
 
 
 ## How to test the changes
