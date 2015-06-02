@@ -37,9 +37,9 @@ If you mistakenly break a styling stuff, slides won't be rendered
 correctly.
 If you are not familiar with those tags and notations, read below.
 
-##### front matter
+* front matter
 
-On top of each markdown files, you'll see three lines like this:
+On top of each markdown files, you'll see five lines like this:
 
 ```
 ---
@@ -49,41 +49,41 @@ permalink: /outline/intro.html
 ---
 ```
 
-These lines are called
+This is called
 [front matter](http://jekyllrb.com/docs/frontmatter/) and important
 information for Jekyll.
 Jekyll sees these lines and creates complete HTML.
 
 
-##### `{::options parse_block_html="true" /}` notation
+* `{::options parse_block_html="true" /}` notation
 
 This notation is for kramdown to notify this markdown file has html
 tags other than markdown syntax.
 
 
-##### `<section></section>` tags
+* `<section></section>` tags
 
 You'll see a lot of `<section></section>` tags.
 This section tag creates each single slide.
-Make sure opening and closing tags matching is correct.
+Make sure opening and closing tags match correctly.
 
 
-#### `{: .slide-title .slide}` notations
+* `{: .slide-title .slide}` notations
 
 These are reveal.js styling notations.
 This curly braces are parsed by kramdown and added to html tags as css
 class names or attributes.
 
 
-#### ng-model, ng-click, ng-show notations and buttons
+* ng-model, ng-click, ng-show notations and buttons
 
 These AngularJS directives are used to show/hide long sentences.
 Since the markdown files are documents as well, the files have many
 explanations in long sentences to clarify what that means.
-However, such long sentences won't fit in each slide.
-Also, those are not appropriate as a slide.
+However, such long sentences won't fit in a slide.
+Also, those are not appropriate as the slide.
 
-Using angular, slides got the feature to show/hide explanations
+Using angular, our slides got the feature to show/hide explanations
 Most of slides have "Intro" or "Details" buttons (those look links,
 but actually, buttons), which act as a toggle button.
 
@@ -120,7 +120,7 @@ But, don't commit the change on `_config.yml`.
 
 #### 2. setup local development environment
 
-At the very first time, you need to spend a half hour or so to setup.
+At the very first time, you need to spend a half hour or so to complete.
 However, local dev env is quite handy and worth to use your time for
 setup.
 It is not complicated as well.
@@ -169,7 +169,7 @@ If you decide to setup local dev env, follow the steps below.
 
     <http://localhost:5555/curriculum/>
 
-    If you want to use other port numbers, change the line `port: 5555` in
+    If you want to use a different port number, change the line `port: 5555` in
     your `_config.yml` file.
     Again, don't commit the change on `_config.yml` file.
 
